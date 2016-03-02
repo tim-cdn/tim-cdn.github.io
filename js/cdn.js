@@ -1,7 +1,13 @@
 //CDN.js
-function hide(id){
+function hide(){
+        document.getElementById('gp').hidden = true;
+    }
+function show(){
+        document.getElementById('gp').hidden = false;
+    }
+    function hideID(id){
         document.getElementById(id).hidden = true;
     }
-function show(id){
+function showID(id){
         document.getElementById(id).hidden = false;
     }
